@@ -1,0 +1,223 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background: #262626;
+    font-family: sans-serif;
+}
+header
+{
+    height: 150px;
+    width: 100%;
+    background-color: gold;
+    box-shadow:5px 5px 10px #fff;
+}
+header span
+{
+    color: red;
+    font-family: "italics" , cursive;
+    font-size: 60px;
+    text-align: center;
+    margin-left: 440px;
+    background-color: gold;
+}
+header span marquee
+{
+    color: white;
+}
+header ul 
+{
+    background-color: gold;
+}
+header ul li
+{
+    color: gold;
+    display: inline;
+    font-size: 20px;
+    margin-left: 200px;
+    background-color: gold;
+}
+.one:hover
+{
+    
+    color: darkred;
+    border: solid;
+    background-color: gold;
+}
+
+.container
+{
+    width: 1280px;
+    min-height: 500px;
+/*    background: #fff;*/
+    margin: 70px auto 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.container .box
+{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background: #ff0;
+    margin: 10px;
+    box-sizing: border-box;
+    display:inline-block;
+    border: solid white;
+    box-shadow: 4px 4px 8px gold;
+}
+.container .box .imgbox
+{
+    position: relative;
+    overflow: hidden;
+}
+.container .box .imgbox img
+{
+    width: 300px;
+    height: 300px;
+    transition: transform 2s;
+}
+.container .box:hover .imgbox img
+{
+    transform: scale(1.2)
+}
+.container .box .details
+{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+    background: rgba(0,0,0,0.8);
+    transform: scaleY(0);
+    transition: transform .5s;
+}
+.container .box:hover .details
+{
+    transform: scaleY(1);   
+}
+.container .box .details .content
+{
+    position: absolute;
+    top: 30%;
+    transform: translateY(-50%);
+/*    text-align: center;*/
+    color: #fff;  
+}
+.container .box .details .content h2
+{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    color: #ff0;
+    margin-left: 20px;
+}
+.container .box .details .content p
+{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    color: #ff0;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+footer
+{
+    height: 100px;
+    width: 100%;
+    border: solid white;
+    background: aqua;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
